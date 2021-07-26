@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="./script.js" charset="utf-8"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
@@ -30,5 +31,21 @@
             <td>TestData_C2</td>
         </tr>
     </table>
+
+    <h2>Part2：JSON Print</h2>
+    <h3>Section2-1：Request Form</h3>
+    <form name="selectTag">
+        <select name="unyoTag">
+            <option value="#網干本所運用 ">網干本所運用</option>
+            <option value="#宮原支所運用 ">宮原支所運用</option>
+            <option value="#明石支所運用 ">明石支所運用</option>
+        </select>
+    </form>
+
+    <h3>Section2-2：Send Button</h3>
+    <input type="button" value="取得" onclick="runFunctonApp()"/>
+
+    <h3>Section2-3：Result Print</h3>
+    <span id="resultArea"></span>
 </body>
 </html>
